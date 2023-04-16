@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(255, 188, 188);
+    font-family: 'Alkatra', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80px;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -15px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(255, 188, 188);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(255, 188, 188);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./img/ba917687-9219-47ed-ac72-f697f3e8216f.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main1{
+    background: url(./img/Photo\ by\ Pawel\ Czerwinski\ on\ Unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main1 h1{
+    color: rgb(246, 246, 246);
+    border-color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main h1{
+    color: rgb(255, 188, 188);
+    border-color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main2{
+    background: url(./img/2bc0c2ae-c414-43e0-bdd2-90b8ecb6e746.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main2 h1{
+    color: rgb(246, 246, 246);
+    border-color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main3{
+    background: url(./img/Pantone\ 2022\ Color\ Of\ The\ Year\,\ Very\ Peri.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main3 h1{
+    color: rgb(246, 246, 246);
+    border-color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main4{
+    background: url(./img/2fe2ba34-a4d0-4c3e-b478-bb5f8b03daa3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main4 h1{
+    color: rgb(246, 246, 246);
+    border-color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(249, 117, 117);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.color-special{
+    background: url(./img/ba917687-9219-47ed-ac72-f697f3e8216f.jpg);
+}
+.color-special1{
+    background: url(./img/Photo\ by\ Pawel\ Czerwinski\ on\ Unsplash.jpg);
+}
+.trending{
+    background: url(./img/ba917687-9219-47ed-ac72-f697f3e8216f.jpg);
+}
+.trending1{
+    background: url(./img/2bc0c2ae-c414-43e0-bdd2-90b8ecb6e746.png);
+}
+.about{
+    background: url(./img/ba917687-9219-47ed-ac72-f697f3e8216f.jpg);
+}
+.about1{
+    background: url(./img/Photo\ by\ Pawel\ Czerwinski\ on\ Unsplash.jpg);
+}
+.shop{
+    background: url(./img/ba917687-9219-47ed-ac72-f697f3e8216f.jpg);
+}
+.shop1{
+    background: url(./img/Pantone\ 2022\ Color\ Of\ The\ Year\,\ Very\ Peri.jpg);
+}
+.contact{
+    background: url(./img/ba917687-9219-47ed-ac72-f697f3e8216f.jpg);
+}
+.contact1{
+    background: url(./img/2fe2ba34-a4d0-4c3e-b478-bb5f8b03daa3.jpg);
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.col-lg-4:hover{
+    box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.close{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(./img/ZARA\ ETERNAL\ SPRING\ 100ML.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.parfume h1{
+    font-family: lobster, cursive;
+}
+.news{
+    background-color: rgb(249, 117, 117);
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: rgb(255, 188, 188) ;
+    color:white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news ::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+    font-size: 1rem;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
